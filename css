@@ -1,0 +1,110 @@
+/* Custom CSS for The Daily Grind */
+
+/* Font Families */
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+/* Color Palette */
+.bg-teal { /* Main dark teal for hero */
+    background-color: #00796B; /* A dark, deep teal */
+}
+.bg-mustard { /* For buttons and accents */
+    background-color: #FFD700; /* Warm mustard yellow */
+    color: #333; /* Dark text on mustard */
+}
+.btn-mustard {
+    background-color: #FFD700;
+    color: #333;
+    border-color: #FFD700;
+}
+.btn-mustard:hover {
+    background-color: #FFC107; /* Slightly darker on hover */
+    border-color: #FFC107;
+}
+.bg-rose-gold { /* For co-working section */
+    background-color: #B76E79; /* A muted rose gold */
+}
+.bg-light-gray { /* For section backgrounds */
+    background-color: #F8F9FA;
+}
+.bg-dark-teal { /* For footer and contact */
+    background-color: #004D40; /* Even darker teal */
+}
+
+/* Navigation Bar */
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #004D40 !important; /* Dark teal for brand name */
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Lora', serif;
+    color: #333;
+    transition: color 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #00796B; /* Dark teal on hover/active */
+}
+
+/* Hero Section */
+.jumbotron {
+    padding: 100px 0; /* More vertical padding */
+    background-image: url('https://via.placeholder.com/1500x800/00796B/FFFFFF?text=Productive+Coffee+Space'); /* Placeholder for your unique illustration */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text is visible on background */
+}
+.jumbotron h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Subtle text shadow */
+}
+
+/* Section Headings */
+h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #004D40; /* Dark teal headings */
+}
+.bg-rose-gold h2 {
+    color: white; /* White headings on rose gold background */
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.badge {
+    font-size: 0.8em;
+    padding: 0.4em 0.7em;
+    border-radius: 5px;
+}
+.bg-dark-teal { /* Custom badge color */
+    background-color: #004D40 !important;
+}
+
+/* Co-working Icons (You'd link a library like Bootstrap Icons or Font Awesome) */
+.col-md-4 i {
+    color: #FFD700; /* Mustard yellow icons */
+}
+
+/* Footer */
+footer {
+    font-family: 'Lora', serif;
+}
+footer p {
+    margin
